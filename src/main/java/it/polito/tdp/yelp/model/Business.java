@@ -105,6 +105,12 @@ public class Business {
 		this.stars = stars;
 	}
 
+	
+	@Override
+	public String toString() {
+		return this.businessName;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
